@@ -7,6 +7,10 @@ module.exports = {
   'list.addMusicLocationType': 'top', // 公共添加歌曲到我的列表时的方式 top | bottom，参考客户端的设置-列表设置-添加歌曲到我的列表时的方式
 
   users: [
+    {
+      name: 'own1',
+      password: '123456',
+    },
     // 用户配置例子，有两种配置格式
     // {
     //   name: 'user1', // 用户名，必须，不能与其他用户名重复
@@ -14,6 +18,8 @@ module.exports = {
     //   maxSnapshotNum: 10, // 可选，最大备份快照数
     //   'list.addMusicLocationType': 'top', // 可选，添加歌曲到我的列表时的方式 top | bottom，参考客户端的设置-列表设置-添加歌曲到我的列表时的方式
     // },
+   
+    
   ],
 
 
